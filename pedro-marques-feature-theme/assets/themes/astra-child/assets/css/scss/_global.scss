@@ -1,0 +1,58 @@
+/* Colors */
+$c-white:				rgb(255,255,255);
+$c-black:				rgb(0,0,0);
+$c-black--opacity-dark:	transparentize($c-black, .5);
+
+$c-blue:     rgb(39,68,253);
+$c-sky-blue: rgb(104,153,222);
+$c-grey:     rgb(117,117,147);
+
+$c-light-grey: rgba(238,238,238, 1);
+
+/* Columns */
+$f-image-col: 35%;
+$f-text-col:  65%;
+
+/* Typography */
+$t-bold-normal: 700;
+
+/* Size */
+$t-heading-2-desktop: 46px;
+$t-heading-2-mobile:  32px;
+
+$t-heading-3-desktop: 42px;
+$t-heading-3-mobile:  28px;
+
+$t-heading-4-desktop: 38px;
+$t-heading-4-mobile:  24px;
+
+/* Measurement */
+$h-tall:	700px;
+$h-normal:	500px;
+$h-short:	250px;
+$w-content: 1200px;
+
+
+/* Margins */
+$m-small: 5%;
+
+/* Borders */
+$b-btn_simple: 5px;
+
+/* Paddings */
+$p-btn_see-more: 12px 48px 12px 48px;
+
+$p-text_in-row:	5%;
+$p-small-space: 3%;
+$p-tiny-space:  1%;
+
+$p-root-large: 7em;
+$p-root-small: 3em;
+$p-root-tiny:  1em;
+
+/* Paddings - Post Title Section */
+$p-post-section-desktop: ($p-small-space * 2) ($p-small-space * 3) $p-small-space 0;
+$p-post-section-mobile:  $p-root-tiny ($p-root-tiny / 2.5);
+
+/* Singles and Archives */
+$img-height: 700px;

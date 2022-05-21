@@ -1,0 +1,14 @@
+{
+  "dest": "assets/manifest.json",
+  "querystring": true,
+  "assets/css/main.css": {
+    "path": "assets/css/main.css",
+    "hash": "80cafc681e808a3d494337af1a3de26d",
+    "handle": "roots_css"
+  },
+  "assets/js/scripts.js": {
+    "path": "assets/js/scripts.js",
+    "hash": "5b2c35bf6458fd1336a63ec059239aa3",
+    "handle": "roots_js"
+  }
+}

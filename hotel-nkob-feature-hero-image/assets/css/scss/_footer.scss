@@ -1,0 +1,38 @@
+.footer-widget-area[data-section="section-footer-menu"] .astra-footer-tablet-vertical-menu {
+	@include mq( $from: mobile, $until: tablet) {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: row;
+	}
+
+	@include mq( $from: tablet, $until: desktop) {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: row;
+	}
+}
+
+.ast-footer-copyright {
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+
+.footer-slick-slider {
+    width: 1200px;
+
+	&__item {
+		padding: 3%;
+	}
+
+    &__item-image {
+		height: 500px;
+		object-fit: cover;
+		object-position: 50%;
+    }
+
+	p.slick-slide.slick-active {
+		display: none;
+	}
+}

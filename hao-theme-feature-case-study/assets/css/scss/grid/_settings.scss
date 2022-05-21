@@ -1,0 +1,17 @@
+$susy: (
+  columns: 12,
+  container: 1168px,
+  math: fluid,
+  container-position: center,
+  global-box-sizing: border-box,
+  gutters: .23207,
+  gutter-position: split
+
+  // uncomment the next group to show grid as background image
+  // ,debug: (
+  // 	image: show,
+  // 	color: transparentize(blue, .9),
+  // 	output: background,
+  // 	toggle: top center,
+  // )
+);

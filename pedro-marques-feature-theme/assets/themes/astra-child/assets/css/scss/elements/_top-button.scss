@@ -1,0 +1,20 @@
+.topbutton {
+	position: fixed;
+	display: none;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	right: 15px;
+	bottom: 25px;
+	z-index: 1;
+	background: $c-blue;
+	border-radius: 2px;
+	text-decoration: none;
+	color: $c-white;
+	text-align: center;
+	font-size: 28px;
+
+	&:after {
+		content: "\2191";
+	}
+}

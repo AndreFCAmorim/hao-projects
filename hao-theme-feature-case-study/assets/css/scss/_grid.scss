@@ -1,0 +1,83 @@
+.grid {
+
+    padding: $p-smaller-space  $p-smaller-space;
+
+    &-row {
+        display:    flex;
+        flex-wrap:  wrap;
+        max-width:  $g-1-col;
+
+        &--first .col-40{
+
+            @include mq( $from: mobile, $until: tablet) {
+                width: $g-1-col;
+            }
+
+            @include mq( $from: tablet, $until: desktop) {
+                width:          $g-col-small;
+                padding-left:   $p-tiny-space;
+            }
+
+            @include mq( $from: desktop) {
+                width:          $g-col-small;
+                padding-left:   $p-tiny-space;
+            }
+        }
+
+        &--first .col-60{
+            @include mq( $from: mobile, $until: tablet) {
+                width: $g-1-col;
+            }
+
+            @include mq( $from: tablet, $until: desktop) {
+                width: $g-col-medium;
+            }
+
+            @include mq( $from: desktop) {
+                width: $g-col-medium;
+            }
+        }
+
+        &--second{
+            margin-top: $m_tiny;
+
+            .col-25{
+                width:          $g-col-tiny;
+                padding-top:    $p-small-space;
+                border-left:    $b-thin $c-light-sky-blue;
+                text-align:     center;
+                &:first-of-type{
+                    border-left: none;
+                }
+
+                @include mq( $from: mobile, $until: tablet) {
+                    width:          $g-1-col;
+                    border-left:    none;
+                }
+
+                @include mq( $from: tablet, $until: desktop) {
+                    width: $g-col-tiny;
+                }
+
+                @include mq( $from: desktop) {
+                    width: $g-col-tiny;
+                }
+            }
+        }
+
+        &--mobile-gallery {
+            display: none;
+            @include mq( $from: mobile, $until: tablet) {
+                display: initial;
+            }
+        }
+
+        &--third {
+            margin-top: $m_tiny;
+        }
+
+        &--fourth .col-100{
+            width: $g-1-col;
+        }
+    }
+}

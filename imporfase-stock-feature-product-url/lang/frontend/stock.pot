@@ -1,0 +1,172 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Imporfase Stock 1.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30 02:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-4.9.11"
+
+#: index.php:21
+msgid "&larr; Artigos Anteriores"
+msgstr ""
+
+#. Author of the theme
+msgid "43LC WebStudio"
+msgstr ""
+
+#: 404.php:9
+msgid "a mistyped address"
+msgstr ""
+
+#: 404.php:10
+msgid "an out-of-date link"
+msgstr ""
+
+#: index.php:22
+msgid "Artigos Seguintes &rarr;"
+msgstr ""
+
+#: lib/titles.php:26
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: templates/template-csv.php:199
+msgid "Código Cliente*"
+msgstr ""
+
+#: templates/template-csv.php:200
+msgid "Código Privado"
+msgstr ""
+
+#: lib/titles.php:19
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: templates/template-csv.php:213
+msgid "Email"
+msgstr ""
+
+#: templates/template-csv.php:212
+msgid "email*"
+msgstr ""
+
+#: functions.php:27
+#, php-format
+msgid "Error locating %s for inclusion"
+msgstr ""
+
+#: templates/template-csv.php:169
+msgid "Hide Cart"
+msgstr ""
+
+#: templates/template-csv.php:75
+msgid "Hide Lists"
+msgstr ""
+
+#. URI of the theme
+msgid "https://43.lc"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://43.lc/"
+msgstr ""
+
+#. Name of the theme
+msgid "Imporfase Stock 1.1.7"
+msgstr ""
+
+#: 404.php:7
+msgid "It looks like this was the result of either:"
+msgstr ""
+
+#: lib/titles.php:10
+msgid "Latest Posts"
+msgstr ""
+
+#: templates/template-csv.php:187
+msgid "lista de referências*"
+msgstr ""
+
+#: lib/titles.php:21
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: lib/titles.php:33
+msgid "Not Found"
+msgstr ""
+
+#: index.php:5
+msgid "Não foram encontrados artigos."
+msgstr ""
+
+#: templates/searchform.php:4
+msgid "Procurar"
+msgstr ""
+
+#: templates/template-csv.php:111 templates/template-csv.php:120
+msgid "ref*"
+msgstr ""
+
+#: templates/template-csv.php:104
+msgid "Referência"
+msgstr ""
+
+#: templates/template-csv.php:188
+msgid "Referências a encomendar"
+msgstr ""
+
+#: templates/searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+#: lib/titles.php:31
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: templates/template-csv.php:166
+msgid "Show Cart"
+msgstr ""
+
+#: templates/template-csv.php:72
+msgid "Show Lists"
+msgstr ""
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr ""
+
+#. Name of the template
+msgid "Stock"
+msgstr ""
+
+#: templates/template-csv.php:246
+msgid "Stock Online disponível para as seguintes marcas:"
+msgstr ""
+
+#. Description of the theme
+msgid "This theme is based on Roots.io"
+msgstr ""
+
+#: lib/titles.php:23
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: base.php:5
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http:"
+"//browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""

@@ -1,0 +1,107 @@
+.hero {
+	width: 100%;
+	height: 700px;
+	box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+	@include mq( $from: mobile, $until: tablet) {
+		height: 500px;
+		box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.0);
+	}
+
+	@include mq( $from: tablet, $until: desktop) {
+		height: 500px;
+		box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.0);
+	}
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center center !important;
+	display: flex;
+
+	&__content {
+		position: relative;
+		display: flex;
+		align-items: center;
+		align-content: center;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding-bottom: 1%;
+		width: 100%;
+		text-align: center;
+		@include mq( $from: mobile, $until: tablet) {
+			display: none;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			display: none;
+		}
+	}
+
+	&__content-title {
+		font-size: 3em;
+		max-width: 1200px;
+		color: rgba(255, 255, 255, 1);
+	}
+
+	&__content-subtitle {
+		color: rgba(255, 255, 255, 1);
+
+		@include mq( $from: mobile, $until: tablet) {
+			padding-top: 100%;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			padding-top: 100%;
+		}
+
+	}
+}
+
+.hero-after-image {
+
+	width: 100%;
+	display:none;
+
+	@include mq( $from: mobile, $until: tablet) {
+		display: flex;
+	}
+
+	@include mq( $from: tablet, $until: desktop) {
+		display: flex;
+	}
+
+	&__content {
+		position: relative;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		width: 100%;
+		text-align: center;
+		padding: 8%;
+	}
+
+	&__content-title {
+		display: none;
+		@include mq( $from: mobile, $until: tablet) {
+			display: block;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			display: block;
+		}
+	}
+
+	&__content-subtitle {
+		color: rgba(0, 0, 0, 1);
+		background-color: rgba(255, 255, 255, 1);
+	}
+
+	&__entry-header {
+		display: none;
+		@include mq( $from: mobile, $until: tablet) {
+			display: block;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			display: block;
+		}
+	}
+}

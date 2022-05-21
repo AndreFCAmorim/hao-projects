@@ -1,0 +1,33 @@
+* {
+	scroll-behavior: smooth !important;
+}
+
+// Breakpoints
+@import 'mq';
+
+//Global Vars
+@import 'global';
+
+//Header
+@import 'header/all';
+
+//Footer
+@import 'footer/all';
+
+//Elements
+@import 'elements/all';
+
+//Forms
+@import 'forms/all';
+
+//Frontpage
+@import 'front-page/all';
+
+//Posts
+@import 'posts/all';
+
+//Archives
+@import 'archive/all';
+
+//Singles
+@import 'single/all';

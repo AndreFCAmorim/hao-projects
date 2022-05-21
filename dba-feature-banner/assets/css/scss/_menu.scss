@@ -1,0 +1,35 @@
+/* News Menu Item */
+li.menu-item.menu-item-type-taxonomy.menu-item-object-category.current-menu-item.menu-item-3216 a{
+	color:#81b381!important;
+	border-bottom:0.5px solid #81b381
+}
+
+/* Artists Menu Item */
+li.menu-item.menu-item-type-taxonomy.menu-item-object-category.current-menu-item.menu-item-3217 a{
+	color:#6980d6!important;
+	border-bottom:0.5px solid #6980d6
+}
+
+/* Podcast Menu Item */
+li.menu-item.menu-item-type-taxonomy.menu-item-object-category.current-menu-item.menu-item-3218 a{
+	color:#7af4f9!important;
+	border-bottom:0.5px solid #7af4f9
+}
+
+/* Magazine Menu Item */
+li.menu-item.menu-item-type-taxonomy.menu-item-object-category.current-menu-item.menu-item-3214 a{
+	color:#d384dc!important;
+	border-bottom:0.5px solid #d384dc
+}
+
+/* Fix Menu Position */
+.sitenav ul{
+	display: flex;
+	@include mq( $from: mobile, $until: tablet) {
+		flex-direction: column;
+	}
+
+	@include mq( $from: tablet, $until: desktop) {
+		flex-direction: column;
+	}
+}

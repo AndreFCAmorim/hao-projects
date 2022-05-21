@@ -1,0 +1,28 @@
+.footer-external-link{
+	padding: $p-small-space;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+	align-items: center;
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: $p-tiny-space;
+
+	}
+
+	&__item-image {
+		width: 75px;
+		height: 75px;
+		display: flex;
+		align-items: center;
+	}
+
+	&__item-title a {
+		font-size: 16px;
+		color: $c-white;
+	}
+}

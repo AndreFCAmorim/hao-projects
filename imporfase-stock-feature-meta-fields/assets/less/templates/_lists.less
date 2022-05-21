@@ -1,0 +1,39 @@
+#list__block {
+
+	display: none;
+
+	@media (min-width: @screen-sm-min) { // 768px;
+		display: block;
+	}
+}
+
+.list {
+	&__toggle {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+#btn-toggle-lists {
+	display: inline-block;
+
+	@media (min-width: @screen-sm-min) { // 768px;
+		display: none;
+	}
+	&.js-show-lists-mode {
+		.js-show-lists {
+			display: block;
+		}
+		.js-hide-lists {
+			display: none;
+		}
+	}
+	.js-show-lists {
+		display: none;
+	}
+	.js-hide-lists {
+		display: block;
+	}
+
+}

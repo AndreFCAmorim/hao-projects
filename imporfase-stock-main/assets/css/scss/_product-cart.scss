@@ -1,0 +1,27 @@
+.email__cart-label {
+	display: none;
+}
+
+.email__cart-table{
+	width: 100%;
+	max-height: 75px;
+	display: block;
+	overflow-y: scroll;
+
+	td {
+		padding-right: 10px;
+	}
+
+	.removeCartItem:hover{
+		cursor: pointer;
+		text-decoration: none;
+	}
+}
+
+#email__encs{
+	display: none;
+}
+
+.email__totals {
+	width: 100%;
+}

@@ -1,0 +1,21 @@
+.header-dossier-single {
+
+	background-color: $c-white;
+
+	&__title {
+		padding: $p-post-section-desktop;
+
+		font-weight: $t-bold-normal;
+		font-size: $t-heading-2-desktop;
+		@include mq( $from: mobile, $until: tablet) {
+			font-size: $t-heading-2-mobile;
+			padding: $p-post-section-mobile;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			font-size: $t-heading-2-mobile;
+			padding: $p-post-section-mobile;
+		}
+	}
+
+}

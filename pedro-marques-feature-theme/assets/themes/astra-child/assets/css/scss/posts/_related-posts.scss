@@ -1,0 +1,27 @@
+.related-posts {
+
+	background-color: $c-white;
+
+	&__title {
+		color: $c-black;
+	}
+
+	&__item {
+		padding: $p-small-space;
+	}
+
+	&__item-title {
+		text-align: center;
+		text-transform: capitalize;
+		color: $c-black;
+		margin-top: $m-small;
+		font-size: 1.4em;
+	}
+
+	&__item-image {
+		height: $img-height;
+		object-fit: cover;
+		object-position: 50%;
+	}
+
+}

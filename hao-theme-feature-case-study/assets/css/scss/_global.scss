@@ -1,0 +1,72 @@
+/* Typography */
+$t-bold: 		700;
+$t-regular: 	400;
+$t-thin: 		100;
+
+/* Size */
+$t-big:			48px;
+$t-large:		28px;
+$t-medium:		18px;
+$t-small:		16px;
+
+/* Colors */
+$c-white:				rgb(255,255,255);
+$c-purple:				rgb(82,70,174);
+$c-dark:				rgb(32,32,32);
+$c-light-sky-blue:		rgb(12,196,190);
+$c-dark-sky-blue:		rgb(73, 97, 96);
+$c-black:				rgb(0,0,0);
+$c-silver-chalice:		rgb(170,170,170);
+$c-gray:				rgb(136,136,136);
+$c-pearl:				rgb(252,248,227);
+$c-gold:				rgb(192,152,83);
+$c-black--opacity-dark:		transparentize($c-black, .8);
+$c-black--opacity-light:	transparentize($c-black, .4);
+
+//Grid
+
+/* Columns */
+$g-1-col: 100%;
+$g-2-col: 50% 50%;
+$g-3-col: 33% 33% 33%;
+
+/* Column Width */
+$g-col-medium:	60%;
+$g-col-half:	50%;
+$g-col-small:	40%;
+$g-col-tiny:	25%;
+
+$g-col-gap: 	1%;
+
+/* Grid row gap */
+$g-row-gap:		5%;
+
+/* Margins */
+$m-small: 		5%;
+$m-smaller: 	2%;
+$m-tiny:		1%;
+$m-none:		0;
+
+$m-partners: 	10px;
+
+/* Paddings */
+$p-medium-space:	45%;
+$p-small-space:		5%;
+$p-smaller-space:	4%;
+$p-tiny-space:		1%;
+$p-none:			0;
+
+$p-galley-nr_text:	8px;
+
+/* Positions */
+$position-top-medium:	$p-medium-space;
+$position-right-tiny: 	$p-tiny-space;
+
+$position-top-none:		0;
+$position-left-none: 	0;
+$position-right-none: 	0;
+$position-bottom-none: 	0;
+
+/* Borders */
+$b-thin: 			1px solid;
+$b-menu-separator: 	5px solid;

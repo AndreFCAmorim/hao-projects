@@ -1,0 +1,40 @@
+// Grid settings
+// -------------------------
+@main-sm-columns:       @grid-columns;
+@sidebar-sm-columns:    4;
+
+// Glyphicons path
+// -------------------------
+@icon-font-path:        "../type/";
+
+
+// LC43 WebStudio
+// -------------------------
+@maincolour:            rgb(232,  16,  16);
+@secondcolour:          rgb( 95, 158, 160);
+@lc_white:              rgb(255, 255, 255);
+@textcolour:            rgb( 26,  26,  26);
+@greyred:               rgba(134, 70, 70, 0.5);
+
+// Brand colors
+// -------------------------
+@brand-primary:         @maincolour;
+
+@font-family-headings:  "league_gothicregular";
+@font-family-body:      "Helvetica";
+@headings-font-family : @font-family-headings;
+#lc43 {
+  .black { color: rgb(  0,  0,  0); }
+	.bg_black { background-color: rgb(0,0,0); }
+  .white { color: rgb(255,255,255); }
+	.bg_white { background-color: rgb(255,255,255); }
+	.bg_greyred   { background-color: @greyred; }
+  .textcolour   { color: @textcolour; }
+  .maincolour   { color: @maincolour; }
+  .headingstype { font-family: @font-family-headings; }
+  .bodytype     { font-family: @font-family-body; }
+  .buttonfy() { background-color:  @brand-primary; border: 1px solid @brand-primary; color: rgb(255, 255, 255); padding: 7px 15px; text-align: center; white-space: nowrap; line-height: 1.5em; }
+  .buttonfy_hover() { #lc43.white;text-decoration: underline }
+  .buttonfy_alt() { background-color:  transparent; border: 1px solid rgb(0, 0, 0); #lc43.textcolour; padding: 12px 20px; text-align: center; white-space: nowrap; line-height: 1.5em; }
+  .buttonfy_alt_hover() {  text-decoration: underline; }
+}

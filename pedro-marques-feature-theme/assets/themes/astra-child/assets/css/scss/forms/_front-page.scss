@@ -1,0 +1,19 @@
+.frontpage-contact-form {
+
+	&__title {
+		font-weight: $t-bold-normal;
+		font-size: $t-heading-2-desktop;
+		@include mq( $from: mobile, $until: tablet) {
+			font-size: $t-heading-2-mobile;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			font-size: $t-heading-2-mobile;
+		}
+	}
+
+	&__form7 * {
+		font-size: 14px;
+	}
+
+}

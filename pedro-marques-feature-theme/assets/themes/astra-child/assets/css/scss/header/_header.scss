@@ -1,0 +1,46 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+body,#page, #slider {
+	width: 100%;
+}
+.ast-site-identity {
+    padding: 1em 0 0;
+}
+
+.site-title a {
+	font-size: 1.5em;
+	line-height: 1;
+	text-transform: uppercase;
+	text-shadow: 0px 9px rgba(255, 255, 255, 0.25);
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: .25px;
+}
+
+.site-header .site-description {
+	font-size: 2.65rem;
+	line-height: 1;
+	padding-bottom: 1rem;
+}
+
+.widget_block > p { margin: 0; }
+
+.ast-builder-menu-2 .menu-item > .menu-link { padding-left: 0; padding-right: 60px; font-size: 1.4em; }
+
+#ctf .ctf-header {
+	background-color: var(--ast-global-color-0);
+}
+#ctf .ctf-header a {
+   color: white;
+}
+
+/* Hide contact btn on contact page */
+.page-id-25267 .ast-header-button-1 {
+	display: none;
+}

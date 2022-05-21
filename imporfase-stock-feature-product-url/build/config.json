@@ -1,0 +1,10 @@
+{
+	"i18n": {
+		"author":      "Pedro de Carvalho <web@goodomens.studio>",
+		"support":     "web@goodomens.studio",
+		"pluginSlug":  "impstock",
+		"mainFile":    "impstock",
+		"textDomain":  "impstock",
+		"potFilename": "impstock"
+	}
+}

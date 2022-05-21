@@ -1,0 +1,10 @@
+cache/
+languages/
+themes/astra
+plugins/astra-sites/
+plugins/wpforms-lite/
+upgrade/
+uploads/
+.vscode/
+node_modules/
+vendor/

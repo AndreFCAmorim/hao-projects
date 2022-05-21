@@ -1,0 +1,103 @@
+* {
+	scroll-behavior: smooth;
+}
+
+.button-theme a {
+	background-color: rgba(144,169,173, 1);
+	color: rgba(255,255,255, 1);
+}
+
+.button-theme a:hover{
+	background-color: rgba(222,227,195, 1) !important;
+}
+
+.homepage-slide img {
+    filter: blur(3px);
+}
+
+.main-header-text {
+    font-weight: 100 !important;
+}
+
+
+@include mq( $from: mobile, $until: tablet) {
+	.rooms_traditional_guest_rooms, .rooms_standard_rooms {
+		padding: 25px;
+	}
+
+	.prices-traditional-table table, .prices-standard-table table {
+		table-layout: fixed;
+	}
+}
+
+@include mq( $from: tablet, $until: desktop) {
+	.rooms_traditional_guest_rooms, .rooms_standard_rooms {
+		padding: 25px;
+	}
+
+	.prices-traditional-table table, .prices-standard-table table {
+		table-layout: fixed;
+	}
+}
+
+.amenities-icons {
+	@include mq( $from: mobile, $until: tablet) {
+		p{
+			display: none;
+		}
+
+		div {
+			display: inline;
+		}
+
+		&__traditional-rooms, &__traditional-kitchen, &__swimming-pool {
+			width: 33%;
+			float: left;
+
+			img {
+				width: 70px;
+			}
+		}
+
+		&__parking-space, &__excursions {
+			width: 50%;
+			float: left;
+
+			img {
+				width: 50px;
+			}
+		}
+	}
+
+	@include mq( $from: tablet, $until: desktop) {
+		p{
+			display: none;
+		}
+
+		div {
+			display: inline;
+		}
+
+		&__traditional-rooms, &__traditional-kitchen, &__swimming-pool {
+			width: 33%;
+			float: left;
+
+			img {
+				width: 70px;
+			}
+		}
+
+		&__parking-space, &__excursions {
+			width: 50%;
+			float: left;
+
+			img {
+				width: 55px;
+			}
+		}
+	}
+}
+
+.amenity-item h3 a {
+	color: rgba(255, 255, 255, 1) !important;
+}

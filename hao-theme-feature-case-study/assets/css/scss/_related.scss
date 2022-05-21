@@ -1,0 +1,33 @@
+.related {
+    margin-top: $m-small;
+    text-align: center;
+
+    &__title{
+        font-weight: $t-bold;
+        text-decoration: none;
+        text-align: left;
+    }
+
+}
+
+.related-item {
+    display: inline-block;
+    text-align: center;
+
+    &__title{
+        color: $c-dark;
+        font-weight: $t-bold;
+        text-decoration: none;
+    }
+
+    &__title:hover{
+        color: $c-dark;
+        font-weight: $t-bold;
+        text-decoration: none;
+    }
+
+    &__logo{
+        padding-right: $p-tiny-space;
+    }
+
+}

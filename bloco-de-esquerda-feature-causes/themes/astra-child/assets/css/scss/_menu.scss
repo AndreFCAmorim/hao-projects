@@ -1,0 +1,16 @@
+.menu-item {
+    line-height: 48px !important;
+}
+
+.menu-item-join {
+	background: #cd381c;
+
+	a {
+		color: #ffffff !important;
+	}
+}
+
+.menu-item-be :after {
+	margin-left: 5px;
+	content: url("../images/external-link.ico");
+}

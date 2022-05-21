@@ -1,0 +1,27 @@
+.related-pages {
+
+	background-color: rgba(48,54,55, 1);
+
+	&__title {
+		color: rgba(255,255,255,1);
+	}
+
+	&__item {
+		padding: 3%;
+	}
+
+	&__item-title {
+		text-align: center;
+		text-transform: capitalize;
+		color: rgba(255,255,255,1);
+		margin-top: 5%;
+		font-size: 1.4em;
+	}
+
+	&__item-image {
+		height: 500px;
+		object-fit: cover;
+		object-position: 50%;
+	}
+
+}

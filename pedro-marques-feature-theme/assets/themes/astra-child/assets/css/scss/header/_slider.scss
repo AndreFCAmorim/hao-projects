@@ -1,0 +1,47 @@
+.header-slick-slider{
+	width: 100%;
+	height: 90vh;
+	@include mq( $from: mobile, $until: tablet) {
+		height: $h-normal;
+		display: initial;
+	}
+
+	@include mq( $from: tablet, $until: desktop) {
+		height: $h-normal;
+		display: initial;
+	}
+	display: flex;
+
+	&__item-image{
+		width: 100%;
+		height: 90vh;
+		@include mq( $from: mobile, $until: tablet) {
+			height: $h-normal;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			height: $h-normal;
+		}
+		object-fit: cover;
+		object-position: 50%;
+	}
+}
+
+.header-shadow-overlay{
+	position: absolute;
+	width: 100%;
+	height: 90vh;
+	@include mq( $from: mobile, $until: tablet) {
+		height: $h-normal;
+	}
+
+	@include mq( $from: tablet, $until: desktop) {
+		height: $h-normal;
+	}
+	z-index: 1;
+	background-color: $c-black--opacity-dark;
+}
+
+#home-hero-slider {
+	margin-top: -50px;
+}

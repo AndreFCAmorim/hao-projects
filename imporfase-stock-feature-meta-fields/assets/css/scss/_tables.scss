@@ -1,0 +1,15 @@
+.tablepress tfoot th, .tablepress thead th {
+    background-color: #5bc0de;
+}
+
+
+.support__list{
+    width: 50%;
+    @include mq( $from: mobile, $until: tablet) {
+        width: 100%;
+    }
+    @include mq( $from: tablet, $until: desktop) {
+        width: 100%;
+    }
+
+}

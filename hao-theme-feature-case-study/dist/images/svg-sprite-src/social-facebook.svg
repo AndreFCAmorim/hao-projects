@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="Camada_1"
+   data-name="Camada 1"
+   viewBox="0 0 56.680001 56.68"
+   version="1.1"
+   width="56.68"
+   height="56.68">
+  <metadata
+     id="metadata46">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs44" />
+  <path
+     d="M 28.34,3 A 25.32,25.32 0 1 1 3,28.34 25.35,25.35 0 0 1 28.34,3 m 0,-3 A 28.34,28.34 0 1 0 56.68,28.34 28.34,28.34 0 0 0 28.34,0 Z"
+     id="path2" />
+  <polygon
+     points="21.71,23.67 34.32,23.67 33.42,29.07 21.71,29.07 "
+     id="polygon12" />
+  <path
+     d="m 24.44,20.11 v 21.57 h 5.38 V 21 a 0.81,0.81 0 0 1 0.9,-0.9 h 3.6 v -5.4 h -4.15 c -5.87,0 -5.73,4.74 -5.73,5.44 z"
+     id="path14" />
+</svg>

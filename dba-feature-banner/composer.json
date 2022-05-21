@@ -1,0 +1,23 @@
+{
+  "name": "goodomens/dontbeafraid",
+  "description": "Theme for Don't Be Afraid Recordings",
+  "authors": [
+    {
+      "name": "Good Omens",
+      "email": "p@goodomens.studio",
+      "homepage": "https://goodomens.studio/"
+    }
+  ],
+  "type": "wordpress-theme",
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "license": "GPL-3.0+",
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6"
+  }
+}

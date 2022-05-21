@@ -1,0 +1,15 @@
+{
+	"i18n": {
+		"author":      "Hope & Oak <hello@hopeandoak.agency>",
+		"support":     "https://hopeandoak.agency/",
+		"pluginSlug":  "pm-post-types",
+		"mainFile":    "pm-post-types",
+		"textDomain":  "pm-cpt",
+		"potFilename": "pm-cpt"
+	},
+	"paths" : {
+		"root": "../"
+	}
+}
+
+

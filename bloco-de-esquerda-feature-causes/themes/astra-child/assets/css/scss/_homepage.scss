@@ -1,0 +1,11 @@
+.homepage-block-presentation{
+	height: 840px;
+
+	@include mq( $from: tablet, $until: desktop ) {
+		height: 640px;
+	}
+
+	@include mq( $from: mobile, $until: tablet ) {
+		height: 440px;
+	}
+}

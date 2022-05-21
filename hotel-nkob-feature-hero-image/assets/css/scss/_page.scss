@@ -1,0 +1,29 @@
+.site-branding.ast-site-identity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ast-separate-container .ast-article-post, .ast-separate-container .ast-article-single:not(.ast-related-post) {
+    background-color: rgba(112,118,84, 1) !important;
+}
+
+.wp-block-gallery .blocks-gallery-item figcaption {
+    font-size:1.4em;
+    @include mq( $from: mobile, $until: tablet) {
+        font-size:0.8em;
+    }
+
+    @include mq( $from: tablet, $until: desktop) {
+        font-size:0.8em;
+    }
+}
+
+table, th, td {
+    border: 0px;
+}
+
+.group-content-fullwidth .wp-block-group__inner-container {
+    max-width: 100%;
+    width: 100%;
+}

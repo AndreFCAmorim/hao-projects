@@ -1,0 +1,87 @@
+.contact-form {
+
+	&__full-width{
+		width: 100%;
+	}
+
+	&__parent{
+		width:100%;
+		display: flex;
+		justify-content: space-between;
+		@include mq( $from: mobile, $until: tablet) {
+			flex-direction: column;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			flex-direction: column;
+		}
+	}
+
+	&__child-rooms--two{
+		width: 50%;
+		@include mq( $from: mobile, $until: tablet) {
+			width: 100%;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			width: 100%;
+		}
+	}
+
+	&__child-rooms--two span{
+		@include mq( $from: mobile, $until: tablet) {
+			width: 100%;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			width: 100%;
+		}
+	}
+
+	&__child--two{
+		width: 45%;
+		@include mq( $from: mobile, $until: tablet) {
+			width: 100%;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			width: 100%;
+		}
+	}
+
+	&__child--two span{
+		@include mq( $from: mobile, $until: tablet) {
+			width: 100%;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			width: 100%;
+		}
+	}
+
+
+	input, textarea {
+		background-color: rgba(144,169,173, 1);
+		color: rgba(255,255,255, 1);
+		margin-bottom: 15px !important;
+	}
+
+	input::placeholder, textarea::placeholder {
+		font-weight: 700;
+		color: rgba(255,255,255, 1);
+	}
+
+	input[type=submit]:hover {
+		background-color: rgba(222,227,195, 1);
+		color: rgba(0,0,0, 1);
+		transition: all .2s linear;
+	}
+
+	input[type=checkbox] {
+		margin: 10px 4px 0 0;
+	}
+
+	span, label{
+		color: rgba(255,255,255, 1);
+	}
+}

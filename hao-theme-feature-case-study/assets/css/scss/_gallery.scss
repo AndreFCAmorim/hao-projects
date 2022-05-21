@@ -1,0 +1,117 @@
+.gallery {
+
+    &__see-more {
+        border:             $b-thin $c-dark-sky-blue;
+        padding:            $p-tiny-space;
+        text-align:         center;
+        text-decoration:    none;
+        display:            inline-block;
+        font-size:          $t-small;
+        background-color:   $c-light-sky-blue;
+        color:              $c-white;
+        @include mq( $from: mobile, $until: tablet) {
+            display: none;
+        }
+    }
+
+    &__see-more:hover{
+        text-decoration:    none;
+        background-color:   $c-white;
+        color:              $c-dark-sky-blue;
+    }
+
+    &__slideshow-container {
+        max-width:  1000px;
+        position:   relative;
+        margin:     auto;
+    }
+
+    &__slides {
+        display: none;
+    }
+
+    &__prev, &__next {
+        cursor:         pointer;
+        position:       absolute;
+        top:            $position-top-medium;
+        width:          auto;
+        padding:        $p-tiny-space;
+        color:          $c-white;
+        font-weight:    $t-bold;
+        font-size:      $t-medium;
+        transition:     0.6s ease;
+    }
+
+    &__next {
+        right: $position-right-none;
+    }
+
+    &__prev:hover, &__next:hover {
+        background-color:   $c-black--opacity-dark;
+        text-decoration:    none;
+    }
+
+    &__image{
+        padding-bottom: $p-small-space;
+    }
+
+    &__numbertext {
+        color:      $c-black;
+        font-size:  $t-large;
+        padding:    $p-galley-nr_text $p-medium-space $p-none $p-medium-space;
+        position:   absolute;
+        bottom:     $position-bottom-none;
+        @include mq( $from: tablet, $until: desktop) {
+            font-size: $t-medium;
+        }
+    }
+
+    .fade {
+        animation-name:     fade;
+        animation-duration: 1.5s;
+      }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    &__modal {
+        display:            none;
+        position:           fixed;
+        z-index:            1;
+        padding-top:        $p-small-space;
+        left:               $position-left-none;
+        top:                $position-top-none;
+        width:              $g-1-col;
+        height:             100%;
+        overflow:           auto;
+        background-color:   $c-black--opacity-light;
+    }
+
+    &__modal-content {
+        background-color:   $c-white;
+        margin:             auto;
+        padding:            $p-tiny-space;
+        border:             $b-thin $c-gray;
+        width:              $g-col-half;
+    }
+
+    &__modal-close {
+        color:          $c-silver-chalice;
+        float:          right;
+        font-size:      $t-large;
+        font-weight:    $t-bold;
+        position:       absolute;
+        z-index:        1;
+        right:          $position-right-tiny;
+    }
+
+    &__modal-close:hover,
+    &__modal-close:focus {
+        color:              $c-black;
+        text-decoration:    none;
+        cursor:             pointer;
+    }
+
+}

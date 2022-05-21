@@ -1,0 +1,116 @@
+.frontpage-recent-activity {
+	margin-top: 	$m-small;
+	margin-bottom: 	$m-small;
+	display: 		flex;
+	flex-direction: column;
+
+	&__entry-title {
+		font-weight:    $t-bold-normal;
+		padding-bottom: $p-tiny-space;
+		font-size:      $t-heading-2-desktop;
+		@include mq( $from: mobile, $until: tablet) {
+			font-size: $t-heading-2-mobile;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			font-size: $t-heading-2-mobile;
+		}
+	}
+
+	&__item {
+		display: flex;
+		width:   100%;
+		@include mq( $from: mobile, $until: tablet) {
+			flex-direction: column;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			flex-direction: column;
+		}
+	}
+
+	&__item--first {
+		display: flex;
+		width:   100%;
+		@include mq( $from: mobile, $until: tablet) {
+			flex-direction: column;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			flex-direction: column;
+		}
+
+		background-color: #6899de;
+		color:            $c-white;
+
+		h3 {
+			color: $c-white;
+		}
+	}
+
+	&__item-image {
+
+		width:   $f-image-col;
+		padding: $p-root-small $p-root-tiny $p-root-small $p-root-small;
+
+		@include mq( $from: mobile, $until: tablet) {
+			width:         100%;
+			padding: $p-root-small $p-root-tiny;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			width:         100%;
+			padding: $p-root-small $p-root-tiny;
+		}
+
+		img {
+			height: 		$h-short;
+			object-fit: 	cover;
+			object-position: 50%;
+		}
+	}
+
+	&__item-content{
+
+		width:          $f-text-col;
+		padding: $p-small-space $p-small-space $p-small-space $p-tiny-space;
+
+		@include mq( $from: mobile, $until: tablet) {
+			width:        100%;
+			padding-left: $p-small-space;
+		}
+
+		@include mq( $from: tablet, $until: desktop) {
+			width:        100%;
+			padding-left: $p-small-space;
+		}
+
+	}
+
+	&__item-content-text{
+		padding-top:    $p-small-space;
+		padding-bottom: $p-small-space;
+		padding-right:  $p-small-space;
+	}
+
+	&__see-more{
+		display: 			flex;
+		flex-direction: 	row;
+		justify-content: 	flex-end;
+		width: 				100%;
+		margin-top:			$m-small;
+
+		a {
+			border-radius: 		$b-btn_simple;
+			padding:			$p-btn_see-more;
+			background-color:	$c-blue;
+			color:				$c-white;
+		}
+	}
+
+	&__see-more:hover{
+		a {
+			background-color:	$c-sky-blue;
+		}
+	}
+}

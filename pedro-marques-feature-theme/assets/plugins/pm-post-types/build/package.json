@@ -1,0 +1,36 @@
+{
+  "name": "hoa-pedromarquestypes",
+  "version": "1.0.10",
+  "description": "Pedro Marques Post Types Plugins",
+  "license": "GPL-2.0+",
+  "author": {
+    "name": "Hope & Oak",
+    "email": "hello@hopeandoak.agency",
+    "homepage": "https://hopeandoak.agency"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "grunt": "^1.4.1",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-composer": "^0.4.5",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-watch": "~1.1.0",
+    "grunt-git": "^1.1.1",
+    "grunt-notify": "^0.4.5",
+    "grunt-shell": "^3.0.1",
+    "grunt-version": "^3.0.0",
+    "grunt-wp-i18n": "^1.0.3",
+    "jit-grunt": "^0.10.0",
+    "load-grunt-config": "^4.0.1",
+    "load-grunt-tasks": "~5.1.0",
+    "semver": "^7.3.5",
+    "time-grunt": "~2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended"
+  },
+  "dependencies": {}
+}
