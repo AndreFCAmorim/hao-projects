@@ -1,0 +1,18 @@
+[16-Sep-2021 15:37:47 UTC] Erro na base de dados do WordPress Table 'textilpt_wp776.wpd7_woocommerce_sessions' doesn't exist na query SELECT session_value FROM wpd7_woocommerce_sessions WHERE session_key = '1' feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, wc_load_cart, WooCommerce->initialize_session, WC_Session_Handler->init, WC_Session_Handler->init_session_cookie, WC_Session_Handler->get_session_data, WC_Session_Handler->get_session
+[16-Sep-2021 15:37:47 UTC] Erro na base de dados do WordPress Table 'textilpt_wp776.wpd7_wc_webhooks' doesn't exist na query SELECT webhook_id
+				FROM wpd7_wc_webhooks
+				WHERE 1=1
+				AND `status` = 'active'
+				
+				
+				
+				
+				
+				ORDER BY webhook_id DESC feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, WooCommerce->load_webhooks, wc_load_webhooks, WC_Data_Store->__call, WC_Webhook_Data_Store->get_webhooks_ids, WC_Webhook_Data_Store->search_webhooks
+[16-Sep-2021 15:37:48 UTC] Erro na base de dados do WordPress Table 'textilpt_wp776.wpd7_woocommerce_attribute_taxonomies' doesn't exist na query SELECT * FROM wpd7_woocommerce_attribute_taxonomies WHERE attribute_name != '' ORDER BY attribute_name ASC; feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Types::register_taxonomies, wc_get_attribute_taxonomies
+[20-Sep-2021 09:08:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WP_Menu_Image' does not have a method 'mm_fs_uninstall_cleanup' in /home/textilpt/public_html/wp-includes/class-wp-hook.php on line 303
+[20-Sep-2021 11:01:14 UTC] ERROR PostmanWpMail: Exception code=0 message=mail.textil73.pt has timed out
+[20-Sep-2021 11:01:14 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/textilpt/public_html/wp-content/plugins/post-smtp/Postman/Extensions/Core/Notifications/PostmanMailNotify.php on line 12
+[20-Sep-2021 11:02:15 UTC] ERROR PostmanWpMail: Exception code=0 message=mail.textil73.pt has timed out
+[20-Sep-2021 11:02:15 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/textilpt/public_html/wp-content/plugins/post-smtp/Postman/Extensions/Core/Notifications/PostmanMailNotify.php on line 12
+[20-Sep-2021 11:02:15 UTC] ERROR PostmanSendTestEmailAjaxController: Test Email NOT delivered to server - 0

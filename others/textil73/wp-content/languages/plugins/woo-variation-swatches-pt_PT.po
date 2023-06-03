@@ -1,0 +1,624 @@
+# Copyright (C) 2021 Variation Swatches for WooCommerce
+# This file is distributed under the same license as the Variation Swatches for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Variation Swatches for WooCommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: ThemeHippo <themehippo@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://github.com/EmranAhmed/woo-variation-swatches/"
+"issues\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: pt_PT\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ../includes/class-wvs-customizer.php:34
+msgid "WooCommerce Variation Swatches"
+msgstr ""
+
+#: ../includes/class-wvs-settings-api.php:143
+msgid "Variation Swatches for WooCommerce Settings"
+msgstr ""
+
+#: ../includes/class-wvs-settings-api.php:144
+msgid "Swatches"
+msgstr ""
+
+#: ../includes/class-wvs-settings-api.php:160, ../includes/functions.php:1796
+msgid "Swatches Settings"
+msgstr ""
+
+#: ../includes/class-wvs-settings-api.php:175
+#, fuzzy
+msgid "Clear transient"
+msgstr "Transiente claro"
+
+#: ../includes/class-wvs-settings-api.php:199
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../includes/class-wvs-settings-api.php:598
+msgid "Save Changes"
+msgstr "Guardar alterações"
+
+#: ../includes/class-wvs-settings-api.php:599
+msgid "Are you sure to reset current settings?"
+msgstr "Tem a certeza de que pretende repor a definição por defeito?"
+
+#: ../includes/class-wvs-settings-api.php:599
+msgid "Reset all"
+msgstr "Repor tudo"
+
+#: ../includes/class-wvs-settings-api.php:754
+msgid "NEW"
+msgstr "NOVO"
+
+#: ../includes/class-wvs-term-meta.php:230
+msgid "Upload / Add image"
+msgstr "Upload / Adicionar imagem"
+
+#: ../includes/class-wvs-term-meta.php:231
+msgid "Remove image"
+msgstr "Remover imagem"
+
+#: ../includes/deactive-feedback-dialog.php:10
+msgid "QUICK FEEDBACK"
+msgstr ""
+
+#: ../includes/deactive-feedback-dialog.php:12
+msgid "Close modal panel"
+msgstr "Fechar painel flutuante"
+
+#: ../includes/deactive-feedback-dialog.php:18
+msgid "May we have a little info about why you are deactivating?"
+msgstr ""
+
+#: ../includes/deactive-feedback-dialog.php:44,
+#: ../includes/deactive-feedback-dialog.php:44
+msgid "Send feedback &amp; Deactivate"
+msgstr ""
+
+#: ../includes/deactive-feedback-dialog.php:44
+#, fuzzy
+msgid "Deactivating..."
+msgstr "Desativar"
+
+#: ../includes/deactive-feedback-dialog.php:48
+#, fuzzy
+msgid "Skip &amp; Deactivate"
+msgstr "Skip &amp; Desativar"
+
+#: ../includes/functions.php:134, ../includes/functions.php:543
+msgid "Color"
+msgstr "Cor"
+
+#: ../includes/functions.php:140, ../includes/functions.php:552
+msgid "Image"
+msgstr "Imagem"
+
+#: ../includes/functions.php:146
+msgid "Button"
+msgstr "Botão"
+
+#: ../includes/functions.php:253
+msgid "Tutorials"
+msgstr "Tutoriais"
+
+#: ../includes/functions.php:256
+msgid "How to tutorials"
+msgstr ""
+
+#: ../includes/functions.php:257
+msgid "How to setup and use this plugin"
+msgstr ""
+
+#: ../includes/functions.php:284
+msgid "Simple"
+msgstr "Simples"
+
+#: ../includes/functions.php:287, ../includes/functions.php:334,
+#: ../includes/functions.php:489
+msgid "Visual Section"
+msgstr ""
+
+#: ../includes/functions.php:288
+msgid "Simple change some visual styles"
+msgstr ""
+
+#: ../includes/functions.php:294
+msgid "Enable Tooltip"
+msgstr ""
+
+#: ../includes/functions.php:295
+msgid "Enable tooltip on each product attribute."
+msgstr ""
+
+#: ../includes/functions.php:301
+msgid "Enable Stylesheet"
+msgstr ""
+
+#: ../includes/functions.php:302
+msgid "Enable default stylesheet"
+msgstr ""
+
+#: ../includes/functions.php:308
+msgid "Shape style"
+msgstr "Estilo de forma"
+
+#: ../includes/functions.php:309
+#, fuzzy
+msgid "Attribute Shape Style"
+msgstr "Estilo de forma de atributo"
+
+#: ../includes/functions.php:311
+msgid "Rounded Shape"
+msgstr "Forma arredondada"
+
+#: ../includes/functions.php:312
+msgid "Squared Shape"
+msgstr "Forma quadrada"
+
+#: ../includes/functions.php:319
+#, fuzzy
+msgid "Auto Dropdowns to Button"
+msgstr "Auto dropdowns para botão"
+
+#: ../includes/functions.php:320
+#, fuzzy
+msgid "Convert default dropdowns to button type"
+msgstr "Converter as reduções predefinidos para o tipo de botão"
+
+#: ../includes/functions.php:331
+msgid "Advanced"
+msgstr "Avançadas"
+
+#: ../includes/functions.php:335
+#, fuzzy
+msgid "Advanced change some visual styles"
+msgstr "Mudança avançada de alguns estilos visuais"
+
+#: ../includes/functions.php:341
+#, fuzzy
+msgid "Clear on Reselect"
+msgstr "Claro em Reselect"
+
+#: ../includes/functions.php:342
+#, fuzzy
+msgid "Clear selected attribute on select again"
+msgstr "Limpar o atributo selecionado no selecionado novamente"
+
+#: ../includes/functions.php:348
+msgid "Ajax variation threshold"
+msgstr ""
+
+#: ../includes/functions.php:349
+msgid ""
+"Control the number of enable ajax variation threshold, If you set <code>1</"
+"code> all product variation will be load via ajax. Default value is "
+"<code>30</code>, <br><span style=\"color: red\">Note: Disable ajax threshold "
+"doesn't follow attribute behaviour. It's recommended to keep this number "
+"between 30 - 40.</span>"
+msgstr ""
+
+#: ../includes/functions.php:359
+#, fuzzy
+msgid "Show selected attribute"
+msgstr "Mostrar atributo selecionado"
+
+#: ../includes/functions.php:360
+#, fuzzy
+msgid "Show selected attribute variation name beside the title"
+msgstr "Mostrar nome de variação de atributo selecionado ao lado do título"
+
+#: ../includes/functions.php:368
+#, fuzzy
+msgid "Variation label separator"
+msgstr "Separador de etiqueta de variação"
+
+#: ../includes/functions.php:369
+#, fuzzy
+msgid "Variation label separator. Default: %s."
+msgstr "Separador de etiqueta de variação. Padrão: %s."
+
+#: ../includes/functions.php:378
+#, fuzzy
+msgid "Attribute behavior"
+msgstr "Atribuir comportamento"
+
+#: ../includes/functions.php:379
+msgid ""
+"Disabled attribute will be hide / blur. %sNote: Disable ajax threshold "
+"doesn't apply this feature.%s"
+msgstr ""
+
+#: ../includes/functions.php:381
+#, fuzzy
+msgid "Blur with cross"
+msgstr "Borrão com cruz"
+
+#: ../includes/functions.php:382
+#, fuzzy
+msgid "Blur without cross"
+msgstr "Borrão sem cruz"
+
+#: ../includes/functions.php:383
+msgid "Hide"
+msgstr "Ocultar"
+
+#: ../includes/functions.php:391
+msgid "Attribute image size"
+msgstr "Atribuir tamanho de imagem"
+
+#: ../includes/functions.php:392
+#, fuzzy
+msgid ""
+"<span style=\"color: red\">Attribute image size changed by "
+"<code>wvs_product_attribute_image_size</code> hook. So this option will not "
+"apply any effect.</span>"
+msgstr ""
+"<span style=\"color: red\">O tamanho da imagem do atributo foi alterado por "
+"<code>wvs_product_attribute_image_size</code> gancho. Portanto, esta opção "
+"não aplicará qualquer efeito.</span>"
+
+#: ../includes/functions.php:399
+msgid "Width"
+msgstr "Largura"
+
+#: ../includes/functions.php:400
+#, fuzzy
+msgid "Variation item width"
+msgstr "Largura do item de variação"
+
+#: ../includes/functions.php:409
+msgid "Height"
+msgstr "Altura"
+
+#: ../includes/functions.php:410
+#, fuzzy
+msgid "Variation item height"
+msgstr "Variação da altura do item"
+
+#: ../includes/functions.php:419
+msgid "Font Size"
+msgstr "Tamanho da fonte"
+
+#: ../includes/functions.php:420
+#, fuzzy
+msgid "Single product variation item font size"
+msgstr "Tamanho do tipo de letra de item de variação de produto único"
+
+#: ../includes/functions.php:434
+msgid "Performance"
+msgstr "Performance"
+
+#: ../includes/functions.php:437
+#, fuzzy
+msgid "Performance Section"
+msgstr "Secção de Desempenho"
+
+#: ../includes/functions.php:438
+#, fuzzy
+msgid "Change for Performance"
+msgstr "Alteração para Desempenho"
+
+#: ../includes/functions.php:444
+#, fuzzy
+msgid "Defer Load JS"
+msgstr "Adiar carregamento JS"
+
+#: ../includes/functions.php:445
+#, fuzzy
+msgid ""
+"Defer Load JS for PageSpeed Score. If you use any caching plugin or your "
+"server have HTTP2 support you do not have to use it"
+msgstr ""
+"Defere A carregar JS para pontuação de velocidade page. Se utilizar um "
+"plugin de caching ou o seu servidor tiver suporte HTTP2, não tem de o "
+"utilizar"
+
+#: ../includes/functions.php:451
+#, fuzzy
+msgid "Use Transient Cache"
+msgstr "Use cache transitório"
+
+#: ../includes/functions.php:452
+#, fuzzy
+msgid ""
+"Use Transient Cache for PageSpeed Score. If you use any caching plugin you "
+"do not have to use it"
+msgstr ""
+"Utilize cache transitório para pontuação de velocidade de página. Se "
+"utilizar algum plugin de caching, não tem de o utilizar"
+
+#: ../includes/functions.php:464
+msgid "Style"
+msgstr "Estilo"
+
+#: ../includes/functions.php:467
+#, fuzzy
+msgid "Visual Styling"
+msgstr "Estilo Visual"
+
+#: ../includes/functions.php:468
+#, fuzzy
+msgid "Change some visual styles"
+msgstr "Alterar alguns estilos visuais"
+
+#: ../includes/functions.php:486
+#, fuzzy
+msgid "Archive / Shop"
+msgstr "Arquivo / Loja"
+
+#: ../includes/functions.php:490
+#, fuzzy
+msgid "Advanced change some visual styles on shop / archive page"
+msgstr "Mudança avançada alguns estilos visuais na loja/página de arquivo"
+
+#: ../includes/functions.php:508
+#, fuzzy
+msgid "Special Attribute"
+msgstr "Atributo Especial"
+
+#: ../includes/functions.php:511
+msgid "Catalog mode"
+msgstr "Modo catálogo"
+
+#: ../includes/functions.php:512
+#, fuzzy
+msgid "Show single attribute as catalog mode on shop / archive pages"
+msgstr ""
+"Mostrar atributo único como modo de catálogo na loja /páginas de arquivo"
+
+#: ../includes/functions.php:544
+#, fuzzy
+msgid "Choose a color"
+msgstr "Escolha uma cor"
+
+#: ../includes/functions.php:553, ../woo-variation-swatches.php:460
+msgid "Choose an Image"
+msgstr "Escolha uma Imagem"
+
+#: ../includes/functions.php:742, ../includes/functions.php:792,
+#: ../includes/functions.php:821
+msgid "Select terms"
+msgstr "Selecionar termos"
+
+#: ../includes/functions.php:752, ../includes/functions.php:804,
+#: ../includes/functions.php:837
+msgid "Select all"
+msgstr "Selecionar todos"
+
+#: ../includes/functions.php:753, ../includes/functions.php:805,
+#: ../includes/functions.php:838
+msgid "Select none"
+msgstr "Nenhum selecionado"
+
+#: ../includes/functions.php:761, ../includes/functions.php:759,
+#: ../includes/functions.php:846, ../includes/functions.php:844
+msgid "Add new"
+msgstr "Adicionar novo"
+
+#: ../includes/functions.php:759, ../includes/functions.php:844
+msgid "Add new %s"
+msgstr "Adicionar novo(a) %s"
+
+#: ../includes/functions.php:1169, ../includes/functions.php:1243,
+#: ../includes/functions.php:1318, ../includes/functions.php:1389,
+#: ../includes/functions.php:1459, ../includes/functions.php:1540,
+#: ../includes/functions.php:1615
+msgid "Choose an option"
+msgstr "Escolha uma opção"
+
+#: ../includes/functions.php:1907
+msgid "Installing Plugin..."
+msgstr "A instalar Plugin..."
+
+#: ../includes/functions.php:1908
+#, fuzzy
+msgid "Plugin Installed. Please refresh this page."
+msgstr "Plugin instalado. Por favor, refresque esta página."
+
+#: ../includes/functions.php:1909
+#, fuzzy
+msgid "Want to add more image? Install"
+msgstr "Quer adicionar mais imagem? Instalar"
+
+#: ../includes/functions.php:1909
+#, fuzzy
+msgid "Additional Variation Images Gallery for WooCommerce"
+msgstr "Galeria de Imagens de Variação Adicional para WooCommerce"
+
+#: ../includes/tutorials.php:97, ../includes/tutorials.php:133,
+#: ../includes/tutorials.php:142, ../includes/tutorials.php:179,
+#: ../includes/tutorials.php:188, ../includes/tutorials.php:225,
+#: ../includes/tutorials.php:234, ../includes/tutorials.php:271,
+#: ../includes/tutorials.php:280, ../includes/tutorials.php:317,
+#: ../includes/tutorials.php:326, ../includes/tutorials.php:364,
+#: ../includes/tutorials.php:373
+msgid "PRO"
+msgstr "PRO"
+
+#: ../woo-variation-swatches.php:142
+#, fuzzy
+msgid "It's a temporary deactivation."
+msgstr "É uma desativação temporária."
+
+#: ../woo-variation-swatches.php:147
+#, fuzzy
+msgid "I couldn't understand how to make it work."
+msgstr "Não conseguia perceber como fazer com que resultasse."
+
+#: ../woo-variation-swatches.php:149
+#, fuzzy
+msgid ""
+"It converts variation select box to beautiful swatches. <br> <a target="
+"\"_blank\" href=\"https://bit.ly/deactivate-dialogue\">Please check live "
+"demo</a>."
+msgstr ""
+"Converte a caixa selecionada de variação para belas amostras. <br><a target="
+"\"_blank\" href=\"https://bit.ly/deactivate-dialogue\">Por favor, verifique "
+"a demonstração ao vivo.</a>"
+
+#: ../woo-variation-swatches.php:153
+msgid "I no longer need the plugin"
+msgstr "Já não preciso do plugin"
+
+#: ../woo-variation-swatches.php:158
+msgid "I found a better plugin"
+msgstr "Encontrei um plugin melhor"
+
+#: ../woo-variation-swatches.php:159
+msgid "Please share which plugin"
+msgstr "Por favor, diga-nos qual plugin"
+
+#: ../woo-variation-swatches.php:163
+#, fuzzy
+msgid "The plugin <strong>broke my layout</strong> or some functionality."
+msgstr ""
+"O plugin <strong>quebrou o meu layout</strong> ou alguma funcionalidade."
+
+#: ../woo-variation-swatches.php:165
+msgid ""
+"<a target=\"_blank\" href=\"https://getwooplugins.com/tickets/\">Please open "
+"a support ticket</a>, we will fix it immediately."
+msgstr ""
+
+#: ../woo-variation-swatches.php:169
+msgid "I need someone to <strong>setup this plugin.</strong>"
+msgstr ""
+
+#: ../woo-variation-swatches.php:170
+#, fuzzy
+msgid "Your email address."
+msgstr "O seu endereço de e-mail."
+
+#: ../woo-variation-swatches.php:172
+msgid ""
+"Please provide your email address to contact with you <br>and help you to "
+"setup and configure this plugin."
+msgstr ""
+
+#: ../woo-variation-swatches.php:176
+msgid "The plugin is <strong>too complicated to configure.</strong>"
+msgstr ""
+
+#: ../woo-variation-swatches.php:178
+msgid ""
+"<a target=\"_blank\" href=\"https://getwooplugins.com/documentation/"
+"woocommerce-variation-swatches/\">Have you checked our documentation?</a>."
+msgstr ""
+
+#: ../woo-variation-swatches.php:182
+msgid "I need <strong>specific feature</strong> that you don't support."
+msgstr ""
+
+#: ../woo-variation-swatches.php:183
+#, fuzzy
+msgid "Please share with us."
+msgstr "Por favor, partilhe connosco."
+
+#: ../woo-variation-swatches.php:188
+msgid "Other"
+msgstr "Outro"
+
+#: ../woo-variation-swatches.php:189
+msgid "Please share the reason"
+msgstr "Por favor, informe-nos qual a sua razão"
+
+#: ../woo-variation-swatches.php:461
+#, fuzzy
+msgid "Add Attribute"
+msgstr "Adicionar Atributo"
+
+#: ../woo-variation-swatches.php:462
+msgid "Add"
+msgstr "Adicionar"
+
+#: ../woo-variation-swatches.php:463
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../woo-variation-swatches.php:464
+msgid "Use Image"
+msgstr "Usar imagem"
+
+#: ../woo-variation-swatches.php:465
+msgid "Add Media"
+msgstr "Adicionar multimédia"
+
+#: ../woo-variation-swatches.php:563, ../woo-variation-swatches.php:563
+msgid "Read Documentation"
+msgstr "Read Documentation"
+
+#: ../woo-variation-swatches.php:565
+msgid "Facing issue?"
+msgstr ""
+
+#: ../woo-variation-swatches.php:565
+msgid "Please open a ticket."
+msgstr ""
+
+#: ../woo-variation-swatches.php:580
+msgid "Go Pro"
+msgstr "Ir pro"
+
+#: ../woo-variation-swatches.php:628
+#, fuzzy
+msgid "Please check PHP version requirement."
+msgstr "Verifique o requisito da versão PHP."
+
+#: ../woo-variation-swatches.php:630
+#, fuzzy
+msgid ""
+"It's required to use latest version of PHP to use <strong>Variation Swatches "
+"for WooCommerce</strong>."
+msgstr ""
+"É necessário usar a versão mais recente do PHP para usar Amostras de "
+"<strong>Variação para WooCommerce</strong>."
+
+#: ../woo-variation-swatches.php:642
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: ../woo-variation-swatches.php:654
+#, fuzzy
+msgid "<strong>Variation Swatches for WooCommerce</strong> is an add-on of "
+msgstr ""
+"<strong>Variações Swatches para WooCommerce</strong> é um complemento de "
+
+#: ../woo-variation-swatches.php:667
+#, fuzzy
+msgid ""
+"Currently, you are using older version of WooCommerce. It's recommended to "
+"use latest version of WooCommerce to work with %s."
+msgstr ""
+"Atualmente, está a usar a versão mais antiga do WooCommerce. Recomenda-se "
+"usar a versão mais recente do WooCommerce para trabalhar com %s."
+
+#: ../woo-variation-swatches.php:667
+msgid "Variation Swatches for WooCommerce"
+msgstr "Amostras de variação para WooCommerce"
+
+#: ../woo-variation-swatches.php:770
+#, fuzzy
+msgid ""
+"Variation Swatches for WooCommerce Plugin try to load \"%s\" but template "
+"\"%s\" was not found."
+msgstr ""
+"Variações As amostras para WooCommerce Plugin tentam carregar \"%s\" mas o "
+"modelo \"%s\" não foi encontrado."
+
+#: ../woo-variation-swatches.php:1003
+msgid "Install Now"
+msgstr "Instalar agora"

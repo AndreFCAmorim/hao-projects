@@ -1,0 +1,136 @@
+# Translation of Plugins - Portugal States (Distritos) for WooCommerce - Stable (latest release) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - Portugal States (Distritos) for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-08 09:04:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - Portugal States (Distritos) for WooCommerce - Stable (latest release)\n"
+
+#: woocommerce-portugal-states.php:108
+msgid "Postcode City"
+msgstr "Localidade do código postal"
+
+#: webdados_portuguese_postcodes_nag/webdados_portuguese_postcodes_nag.php:31
+msgid "https://www.webdados.pt/wordpress/plugins/codigos-postais-portugueses-para-woocommerce/"
+msgstr "https://www.webdados.pt/wordpress/plugins/codigos-postais-portugueses-para-woocommerce/"
+
+#: webdados_portuguese_postcodes_nag/webdados_portuguese_postcodes_nag.php:28
+msgid "Activate the automatic filling of the postal code at the checkout, avoiding incorrect data at the time of sending, with our plugin %1$sPortuguese Postcodes for WooCommerce%2$s"
+msgstr "Active o preenchimento automático do código postal na finalização de compras, evitando dados incorrectos no momento do envio, com nosso plugin %1$sCódigos Postais Portugueses para WooCommerce%2$s"
+
+#: webdados_portuguese_postcodes_nag/webdados_portuguese_postcodes_nag.php:25
+msgid "Do your customers still write the full postal code manually on the checkout?"
+msgstr "Os seus clientes ainda escrevem o código postal completo manualmente, na finalização de compras?"
+
+#. Plugin URI of the plugin
+msgid "https://www.webdados.pt/wordpress/plugins/portugal-states-distritos-woocommerce-wordpress/"
+msgstr "https://www.webdados.pt/wordpress/plugins/portugal-states-distritos-woocommerce-wordpress/"
+
+#: webdados_portuguese_postcodes_nag/webdados_portuguese_postcodes_nag.php:36
+msgid "Use the coupon <strong>webdados</strong> for 10% discount!"
+msgstr "Use o cupão <strong>webdados</strong> para obter 10% de desconto!"
+
+#. Author URI of the plugin
+msgid "https://www.webdados.pt"
+msgstr "https://www.webdados.pt"
+
+#. Author of the plugin
+msgid "Webdados"
+msgstr "Webdados"
+
+#. Description of the plugin
+msgid "This plugin adds the Portuguese \"States\", known as \"Distritos\", to WooCommerce and sets the correct address format for Portugal"
+msgstr "Este plugin adiciona os Distritos Portugueses ao WooCommerce, bem como define o correcto formato de morada para Portugal"
+
+#. Plugin Name of the plugin
+msgid "Portugal States (Distritos) for WooCommerce"
+msgstr "Distritos de Portugal para WooCommerce"
+
+#: woocommerce-portugal-states.php:112
+msgid "District"
+msgstr "Distrito"
+
+#: woocommerce-portugal-states.php:94
+msgid "Viseu"
+msgstr "Viseu"
+
+#: woocommerce-portugal-states.php:93
+msgid "Vila Real"
+msgstr "Vila Real"
+
+#: woocommerce-portugal-states.php:92
+msgid "Viana do Castelo"
+msgstr "Viana do Castelo"
+
+#: woocommerce-portugal-states.php:91
+msgid "Setúbal"
+msgstr "Setúbal"
+
+#: woocommerce-portugal-states.php:90
+msgid "Santarém"
+msgstr "Santarém"
+
+#: woocommerce-portugal-states.php:89
+msgid "Oporto"
+msgstr "Porto"
+
+#: woocommerce-portugal-states.php:88
+msgid "Portalegre"
+msgstr "Portalegre"
+
+#: woocommerce-portugal-states.php:87
+msgid "Madeira"
+msgstr "Madeira"
+
+#: woocommerce-portugal-states.php:86
+msgid "Lisbon"
+msgstr "Lisboa"
+
+#: woocommerce-portugal-states.php:85
+msgid "Leiria"
+msgstr "Leiria"
+
+#: woocommerce-portugal-states.php:84
+msgid "Guarda"
+msgstr "Guarda"
+
+#: woocommerce-portugal-states.php:83
+msgid "Faro"
+msgstr "Faro"
+
+#: woocommerce-portugal-states.php:82
+msgid "Évora"
+msgstr "Évora"
+
+#: woocommerce-portugal-states.php:81
+msgid "Coimbra"
+msgstr "Coimbra"
+
+#: woocommerce-portugal-states.php:80
+msgid "Castelo Branco"
+msgstr "Castelo Branco"
+
+#: woocommerce-portugal-states.php:79
+msgid "Bragança"
+msgstr "Bragança"
+
+#: woocommerce-portugal-states.php:78
+msgid "Braga"
+msgstr "Braga"
+
+#: woocommerce-portugal-states.php:77
+msgid "Beja"
+msgstr "Beja"
+
+#: woocommerce-portugal-states.php:76
+msgid "Aveiro"
+msgstr "Aveiro"
+
+#: woocommerce-portugal-states.php:75
+msgid "Azores"
+msgstr "Açores"

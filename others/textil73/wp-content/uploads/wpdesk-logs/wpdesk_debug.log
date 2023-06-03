@@ -1,0 +1,2 @@
+[2021-09-17 16:16:12] wpdesk.DEBUG: Sender payload: {"click_action":"no","url":"https:\/\/textil73.pt","localhost":"no"} {"source":"wpdesk-sender"} []
+[2021-09-17 16:16:14] wpdesk.DEBUG: Sender response: {"headers":[],"body":"","response":{"code":false,"message":false},"cookies":[],"http_response":null} {"source":"wpdesk-sender"} []

@@ -1,0 +1,2 @@
+2023-01-04T21:29:24+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 45056 bytes) em /srv/htdocs/sites/textil73/wp-includes/wp-db.php na linha 2135
+
